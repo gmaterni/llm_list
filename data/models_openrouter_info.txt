@@ -1,0 +1,158 @@
+MODELLI OPENROUTER (FREE) - INFORMAZIONI DETTAGLIATE
+==================================================
+
+ID: arcee-ai/trinity-large-preview:free
+Nome: Arcee AI: Trinity Large Preview (free)
+Context: 131000
+Modality: text->text
+------------------------------
+ID: arcee-ai/trinity-mini:free
+Nome: Arcee AI: Trinity Mini (free)
+Context: 131072
+Modality: text->text
+------------------------------
+ID: cognitivecomputations/dolphin-mistral-24b-venice-edition:free
+Nome: Venice: Uncensored (free)
+Context: 32768
+Modality: text->text
+------------------------------
+ID: deepseek/deepseek-r1-0528:free
+Nome: DeepSeek: R1 0528 (free)
+Context: 163840
+Modality: text->text
+------------------------------
+ID: google/gemma-3-12b-it:free
+Nome: Google: Gemma 3 12B (free)
+Context: 32768
+Modality: text+image->text
+------------------------------
+ID: google/gemma-3-27b-it:free
+Nome: Google: Gemma 3 27B (free)
+Context: 131072
+Modality: text+image->text
+------------------------------
+ID: google/gemma-3-4b-it:free
+Nome: Google: Gemma 3 4B (free)
+Context: 32768
+Modality: text+image->text
+------------------------------
+ID: google/gemma-3n-e2b-it:free
+Nome: Google: Gemma 3n 2B (free)
+Context: 8192
+Modality: text->text
+------------------------------
+ID: google/gemma-3n-e4b-it:free
+Nome: Google: Gemma 3n 4B (free)
+Context: 8192
+Modality: text->text
+------------------------------
+ID: liquid/lfm-2.5-1.2b-instruct:free
+Nome: LiquidAI: LFM2.5-1.2B-Instruct (free)
+Context: 32768
+Modality: text->text
+------------------------------
+ID: liquid/lfm-2.5-1.2b-thinking:free
+Nome: LiquidAI: LFM2.5-1.2B-Thinking (free)
+Context: 32768
+Modality: text->text
+------------------------------
+ID: meta-llama/llama-3.2-3b-instruct:free
+Nome: Meta: Llama 3.2 3B Instruct (free)
+Context: 131072
+Modality: text->text
+------------------------------
+ID: meta-llama/llama-3.3-70b-instruct:free
+Nome: Meta: Llama 3.3 70B Instruct (free)
+Context: 128000
+Modality: text->text
+------------------------------
+ID: mistralai/mistral-small-3.1-24b-instruct:free
+Nome: Mistral: Mistral Small 3.1 24B (free)
+Context: 128000
+Modality: text+image->text
+------------------------------
+ID: nousresearch/hermes-3-llama-3.1-405b:free
+Nome: Nous: Hermes 3 405B Instruct (free)
+Context: 131072
+Modality: text->text
+------------------------------
+ID: nvidia/nemotron-3-nano-30b-a3b:free
+Nome: NVIDIA: Nemotron 3 Nano 30B A3B (free)
+Context: 256000
+Modality: text->text
+------------------------------
+ID: nvidia/nemotron-nano-12b-v2-vl:free
+Nome: NVIDIA: Nemotron Nano 12B 2 VL (free)
+Context: 128000
+Modality: text+image+video->text
+------------------------------
+ID: nvidia/nemotron-nano-9b-v2:free
+Nome: NVIDIA: Nemotron Nano 9B V2 (free)
+Context: 128000
+Modality: text->text
+------------------------------
+ID: openai/gpt-oss-120b:free
+Nome: OpenAI: gpt-oss-120b (free)
+Context: 131072
+Modality: text->text
+------------------------------
+ID: openai/gpt-oss-20b:free
+Nome: OpenAI: gpt-oss-20b (free)
+Context: 131072
+Modality: text->text
+------------------------------
+ID: openrouter/free
+Nome: Free Models Router
+Context: 200000
+Modality: text+image->text
+------------------------------
+ID: openrouter/pony-alpha
+Nome: Pony Alpha
+Context: 200000
+Modality: text->text
+------------------------------
+ID: qwen/qwen3-4b:free
+Nome: Qwen: Qwen3 4B (free)
+Context: 40960
+Modality: text->text
+------------------------------
+ID: qwen/qwen3-coder:free
+Nome: Qwen: Qwen3 Coder 480B A35B (free)
+Context: 262000
+Modality: text->text
+------------------------------
+ID: qwen/qwen3-next-80b-a3b-instruct:free
+Nome: Qwen: Qwen3 Next 80B A3B Instruct (free)
+Context: 262144
+Modality: text->text
+------------------------------
+ID: stepfun/step-3.5-flash:free
+Nome: StepFun: Step 3.5 Flash (free)
+Context: 256000
+Modality: text->text
+------------------------------
+ID: tngtech/deepseek-r1t-chimera:free
+Nome: TNG: DeepSeek R1T Chimera (free)
+Context: 163840
+Modality: text->text
+------------------------------
+ID: tngtech/deepseek-r1t2-chimera:free
+Nome: TNG: DeepSeek R1T2 Chimera (free)
+Context: 163840
+Modality: text->text
+------------------------------
+ID: tngtech/tng-r1t-chimera:free
+Nome: TNG: R1T Chimera (free)
+Context: 163840
+Modality: text->text
+------------------------------
+ID: upstage/solar-pro-3:free
+Nome: Upstage: Solar Pro 3 (free)
+Context: 128000
+Modality: text->text
+------------------------------
+ID: z-ai/glm-4.5-air:free
+Nome: Z.AI: GLM 4.5 Air (free)
+Context: 131072
+Modality: text->text
+------------------------------

@@ -1,0 +1,155 @@
+MODELLI MISTRAL - INFORMAZIONI DETTAGLIATE
+==================================================
+
+ID: codestral-2508
+Nome: codestral-2508
+Context: 256000
+------------------------------
+ID: codestral-latest
+Nome: codestral-2508
+Context: 256000
+------------------------------
+ID: devstral-2512
+Nome: devstral-2512
+Context: 262144
+------------------------------
+ID: devstral-latest
+Nome: devstral-2512
+Context: 262144
+------------------------------
+ID: devstral-medium-2507
+Nome: devstral-medium-2507
+Context: 131072
+------------------------------
+ID: devstral-medium-latest
+Nome: devstral-2512
+Context: 262144
+------------------------------
+ID: devstral-small-2507
+Nome: devstral-small-2507
+Context: 131072
+------------------------------
+ID: devstral-small-latest
+Nome: labs-devstral-small-2512
+Context: 262144
+------------------------------
+ID: labs-devstral-small-2512
+Nome: labs-devstral-small-2512
+Context: 262144
+------------------------------
+ID: labs-mistral-small-creative
+Nome: labs-mistral-small-creative
+Context: 32768
+------------------------------
+ID: magistral-medium-2509
+Nome: magistral-medium-2509
+Context: 131072
+------------------------------
+ID: magistral-medium-latest
+Nome: magistral-medium-2509
+Context: 131072
+------------------------------
+ID: magistral-small-2509
+Nome: magistral-small-2509
+Context: 131072
+------------------------------
+ID: magistral-small-latest
+Nome: magistral-small-2509
+Context: 131072
+------------------------------
+ID: ministral-14b-2512
+Nome: ministral-14b-2512
+Context: 262144
+------------------------------
+ID: ministral-14b-latest
+Nome: ministral-14b-2512
+Context: 262144
+------------------------------
+ID: ministral-3b-2512
+Nome: ministral-3b-2512
+Context: 131072
+------------------------------
+ID: ministral-3b-latest
+Nome: ministral-3b-2512
+Context: 131072
+------------------------------
+ID: ministral-8b-2512
+Nome: ministral-8b-2512
+Context: 262144
+------------------------------
+ID: ministral-8b-latest
+Nome: ministral-8b-2512
+Context: 262144
+------------------------------
+ID: mistral-large-2512
+Nome: mistral-large-2512
+Context: 262144
+------------------------------
+ID: mistral-large-latest
+Nome: mistral-large-2512
+Context: 262144
+------------------------------
+ID: mistral-large-pixtral-2411
+Nome: pixtral-large-2411
+Context: 131072
+------------------------------
+ID: mistral-medium-2508
+Nome: mistral-medium-2508
+Context: 131072
+------------------------------
+ID: mistral-medium-latest
+Nome: mistral-medium-2508
+Context: 131072
+------------------------------
+ID: mistral-small-2506
+Nome: mistral-small-2506
+Context: 131072
+------------------------------
+ID: mistral-small-latest
+Nome: mistral-small-2506
+Context: 131072
+------------------------------
+ID: mistral-tiny-2407
+Nome: open-mistral-nemo
+Context: 131072
+------------------------------
+ID: mistral-tiny-latest
+Nome: open-mistral-nemo
+Context: 131072
+------------------------------
+ID: mistral-vibe-cli-latest
+Nome: devstral-2512
+Context: 262144
+------------------------------
+ID: mistral-vibe-cli-with-tools
+Nome: mistral-medium-2508
+Context: 131072
+------------------------------
+ID: open-mistral-nemo-2407
+Nome: open-mistral-nemo
+Context: 131072
+------------------------------
+ID: pixtral-large-2411
+Nome: pixtral-large-2411
+Context: 131072
+------------------------------
+ID: pixtral-large-latest
+Nome: pixtral-large-2411
+Context: 131072
+------------------------------
+ID: voxtral-mini-2507
+Nome: voxtral-mini-2507
+Context: 32768
+------------------------------
+ID: voxtral-mini-latest
+Nome: voxtral-mini-2507
+Context: 32768
+------------------------------
+ID: voxtral-small-2507
+Nome: voxtral-small-2507
+Context: 32768
+------------------------------
+ID: voxtral-small-latest
+Nome: voxtral-small-2507
+Context: 32768
+------------------------------

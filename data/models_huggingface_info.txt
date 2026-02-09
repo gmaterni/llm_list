@@ -1,0 +1,458 @@
+MODELLI HUGGINGFACE - INFORMAZIONI DETTAGLIATE
+==================================================
+
+ID: EleutherAI/pythia-160m
+Pipeline: text-generation
+Downloads: 510920
+Likes: 38
+------------------------------
+ID: HuggingFaceTB/SmolLM2-135M
+Pipeline: text-generation
+Downloads: 594789
+Likes: 164
+------------------------------
+ID: Qwen/Qwen2-1.5B-Instruct
+Pipeline: text-generation
+Downloads: 2114238
+Likes: 156
+------------------------------
+ID: Qwen/Qwen2.5-0.5B
+Pipeline: text-generation
+Downloads: 1078525
+Likes: 371
+------------------------------
+ID: Qwen/Qwen2.5-0.5B-Instruct
+Pipeline: text-generation
+Downloads: 3908788
+Likes: 461
+------------------------------
+ID: Qwen/Qwen2.5-1.5B-Instruct
+Pipeline: text-generation
+Downloads: 6629173
+Likes: 609
+------------------------------
+ID: Qwen/Qwen2.5-14B-Instruct
+Pipeline: text-generation
+Downloads: 2000915
+Likes: 308
+------------------------------
+ID: Qwen/Qwen2.5-14B-Instruct-AWQ
+Pipeline: text-generation
+Downloads: 702458
+Likes: 27
+------------------------------
+ID: Qwen/Qwen2.5-32B-Instruct
+Pipeline: text-generation
+Downloads: 4306883
+Likes: 325
+------------------------------
+ID: Qwen/Qwen2.5-32B-Instruct-AWQ
+Pipeline: text-generation
+Downloads: 876021
+Likes: 91
+------------------------------
+ID: Qwen/Qwen2.5-3B-Instruct
+Pipeline: text-generation
+Downloads: 10052960
+Likes: 400
+------------------------------
+ID: Qwen/Qwen2.5-72B-Instruct-AWQ
+Pipeline: text-generation
+Downloads: 736255
+Likes: 74
+------------------------------
+ID: Qwen/Qwen2.5-7B
+Pipeline: text-generation
+Downloads: 1078955
+Likes: 263
+------------------------------
+ID: Qwen/Qwen2.5-7B-Instruct
+Pipeline: text-generation
+Downloads: 10278446
+Likes: 1061
+------------------------------
+ID: Qwen/Qwen2.5-Coder-0.5B-Instruct
+Pipeline: text-generation
+Downloads: 2702751
+Likes: 64
+------------------------------
+ID: Qwen/Qwen2.5-Coder-1.5B
+Pipeline: text-generation
+Downloads: 620763
+Likes: 80
+------------------------------
+ID: Qwen/Qwen2.5-Coder-1.5B-Instruct
+Pipeline: text-generation
+Downloads: 1419460
+Likes: 105
+------------------------------
+ID: Qwen/Qwen2.5-Coder-32B-Instruct
+Pipeline: text-generation
+Downloads: 638973
+Likes: 1990
+------------------------------
+ID: Qwen/Qwen2.5-Coder-7B-Instruct
+Pipeline: text-generation
+Downloads: 1308920
+Likes: 626
+------------------------------
+ID: Qwen/Qwen2.5-Coder-7B-Instruct-AWQ
+Pipeline: text-generation
+Downloads: 521264
+Likes: 19
+------------------------------
+ID: Qwen/Qwen3-0.6B
+Pipeline: text-generation
+Downloads: 9621868
+Likes: 1053
+------------------------------
+ID: Qwen/Qwen3-0.6B-FP8
+Pipeline: text-generation
+Downloads: 928416
+Likes: 55
+------------------------------
+ID: Qwen/Qwen3-1.7B
+Pipeline: text-generation
+Downloads: 3853266
+Likes: 415
+------------------------------
+ID: Qwen/Qwen3-14B
+Pipeline: text-generation
+Downloads: 756159
+Likes: 359
+------------------------------
+ID: Qwen/Qwen3-14B-AWQ
+Pipeline: text-generation
+Downloads: 927004
+Likes: 54
+------------------------------
+ID: Qwen/Qwen3-235B-A22B
+Pipeline: text-generation
+Downloads: 561479
+Likes: 1072
+------------------------------
+ID: Qwen/Qwen3-235B-A22B-Instruct-2507-FP8
+Pipeline: text-generation
+Downloads: 770987
+Likes: 144
+------------------------------
+ID: Qwen/Qwen3-30B-A3B
+Pipeline: text-generation
+Downloads: 731738
+Likes: 849
+------------------------------
+ID: Qwen/Qwen3-30B-A3B-Instruct-2507
+Pipeline: text-generation
+Downloads: 1330177
+Likes: 758
+------------------------------
+ID: Qwen/Qwen3-30B-A3B-Instruct-2507-FP8
+Pipeline: text-generation
+Downloads: 639906
+Likes: 110
+------------------------------
+ID: Qwen/Qwen3-32B
+Pipeline: text-generation
+Downloads: 1882478
+Likes: 646
+------------------------------
+ID: Qwen/Qwen3-32B-FP8
+Pipeline: text-generation
+Downloads: 876764
+Likes: 77
+------------------------------
+ID: Qwen/Qwen3-4B
+Pipeline: text-generation
+Downloads: 5220946
+Likes: 544
+------------------------------
+ID: Qwen/Qwen3-4B-Instruct-2507
+Pipeline: text-generation
+Downloads: 3193595
+Likes: 707
+------------------------------
+ID: Qwen/Qwen3-4B-Instruct-2507-FP8
+Pipeline: text-generation
+Downloads: 628039
+Likes: 64
+------------------------------
+ID: Qwen/Qwen3-4B-Thinking-2507
+Pipeline: text-generation
+Downloads: 508097
+Likes: 541
+------------------------------
+ID: Qwen/Qwen3-8B
+Pipeline: text-generation
+Downloads: 4568646
+Likes: 905
+------------------------------
+ID: Qwen/Qwen3-Coder-30B-A3B-Instruct
+Pipeline: text-generation
+Downloads: 538993
+Likes: 935
+------------------------------
+ID: Qwen/Qwen3-Next-80B-A3B-Instruct
+Pipeline: text-generation
+Downloads: 1106525
+Likes: 930
+------------------------------
+ID: RedHatAI/Llama-3.2-1B-Instruct-FP8-dynamic
+Pipeline: text-generation
+Downloads: 1129363
+Likes: 3
+------------------------------
+ID: RedHatAI/Meta-Llama-3.1-8B-Instruct-FP8
+Pipeline: text-generation
+Downloads: 557471
+Likes: 44
+------------------------------
+ID: RedHatAI/Qwen2.5-1.5B-quantized.w8a8
+Pipeline: text-generation
+Downloads: 672310
+Likes: 2
+------------------------------
+ID: TinyLlama/TinyLlama-1.1B-Chat-v1.0
+Pipeline: text-generation
+Downloads: 1708476
+Likes: 1521
+------------------------------
+ID: bigscience/bloomz-560m
+Pipeline: text-generation
+Downloads: 576860
+Likes: 137
+------------------------------
+ID: cyankiwi/GLM-4.5-Air-AWQ-4bit
+Pipeline: text-generation
+Downloads: 508564
+Likes: 27
+------------------------------
+ID: deepseek-ai/DeepSeek-R1-0528
+Pipeline: text-generation
+Downloads: 505263
+Likes: 2399
+------------------------------
+ID: deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+Pipeline: text-generation
+Downloads: 645700
+Likes: 1445
+------------------------------
+ID: deepseek-ai/DeepSeek-R1-Distill-Qwen-32B
+Pipeline: text-generation
+Downloads: 1739352
+Likes: 1511
+------------------------------
+ID: deepseek-ai/DeepSeek-R1-Distill-Qwen-7B
+Pipeline: text-generation
+Downloads: 685826
+Likes: 783
+------------------------------
+ID: deepseek-ai/DeepSeek-V3
+Pipeline: text-generation
+Downloads: 1149193
+Likes: 4021
+------------------------------
+ID: distilbert/distilgpt2
+Pipeline: text-generation
+Downloads: 2194343
+Likes: 609
+------------------------------
+ID: dphn/dolphin-2.9.1-yi-1.5-34b
+Pipeline: text-generation
+Downloads: 4115360
+Likes: 54
+------------------------------
+ID: facebook/opt-125m
+Pipeline: text-generation
+Downloads: 3968915
+Likes: 233
+------------------------------
+ID: google/gemma-3-1b-it
+Pipeline: text-generation
+Downloads: 1562058
+Likes: 834
+------------------------------
+ID: h2oai/h2ovl-mississippi-2b
+Pipeline: text-generation
+Downloads: 886480
+Likes: 40
+------------------------------
+ID: h2oai/h2ovl-mississippi-800m
+Pipeline: text-generation
+Downloads: 893702
+Likes: 39
+------------------------------
+ID: hmellor/tiny-random-LlamaForCausalLM
+Pipeline: text-generation
+Downloads: 939413
+Likes: 0
+------------------------------
+ID: kaitchup/Phi-3-mini-4k-instruct-gptq-4bit
+Pipeline: text-generation
+Downloads: 815915
+Likes: 2
+------------------------------
+ID: llamafactory/tiny-random-Llama-3
+Pipeline: text-generation
+Downloads: 624456
+Likes: 3
+------------------------------
+ID: llm-jp/llm-jp-3-3.7b-instruct
+Pipeline: text-generation
+Downloads: 1426214
+Likes: 12
+------------------------------
+ID: lmstudio-community/GLM-4.7-Flash-MLX-6bit
+Pipeline: text-generation
+Downloads: 898536
+Likes: 2
+------------------------------
+ID: lmstudio-community/GLM-4.7-Flash-MLX-8bit
+Pipeline: text-generation
+Downloads: 903424
+Likes: 7
+------------------------------
+ID: lmstudio-community/LFM2.5-1.2B-Instruct-MLX-4bit
+Pipeline: text-generation
+Downloads: 690601
+Likes: 1
+------------------------------
+ID: lmstudio-community/LFM2.5-1.2B-Instruct-MLX-6bit
+Pipeline: text-generation
+Downloads: 691792
+Likes: 3
+------------------------------
+ID: lmstudio-community/LFM2.5-1.2B-Instruct-MLX-8bit
+Pipeline: text-generation
+Downloads: 698919
+Likes: 1
+------------------------------
+ID: meta-llama/Llama-3.1-70B-Instruct
+Pipeline: text-generation
+Downloads: 693571
+Likes: 886
+------------------------------
+ID: meta-llama/Llama-3.1-8B
+Pipeline: text-generation
+Downloads: 1113849
+Likes: 2054
+------------------------------
+ID: meta-llama/Llama-3.1-8B-Instruct
+Pipeline: text-generation
+Downloads: 5943707
+Likes: 5415
+------------------------------
+ID: meta-llama/Llama-3.2-1B
+Pipeline: text-generation
+Downloads: 2393730
+Likes: 2286
+------------------------------
+ID: meta-llama/Llama-3.2-1B-Instruct
+Pipeline: text-generation
+Downloads: 2845218
+Likes: 1284
+------------------------------
+ID: meta-llama/Llama-3.2-3B
+Pipeline: text-generation
+Downloads: 734720
+Likes: 694
+------------------------------
+ID: meta-llama/Llama-3.2-3B-Instruct
+Pipeline: text-generation
+Downloads: 2128992
+Likes: 1974
+------------------------------
+ID: meta-llama/Llama-3.3-70B-Instruct
+Pipeline: text-generation
+Downloads: 969974
+Likes: 2649
+------------------------------
+ID: meta-llama/Meta-Llama-3-8B
+Pipeline: text-generation
+Downloads: 1803459
+Likes: 6451
+------------------------------
+ID: meta-llama/Meta-Llama-3-8B-Instruct
+Pipeline: text-generation
+Downloads: 1479192
+Likes: 4375
+------------------------------
+ID: microsoft/Phi-3-mini-4k-instruct
+Pipeline: text-generation
+Downloads: 930310
+Likes: 1381
+------------------------------
+ID: microsoft/phi-2
+Pipeline: text-generation
+Downloads: 1386673
+Likes: 3424
+------------------------------
+ID: microsoft/phi-4
+Pipeline: text-generation
+Downloads: 573619
+Likes: 2218
+------------------------------
+ID: mistralai/Mistral-7B-Instruct-v0.1
+Pipeline: text-generation
+Downloads: 533973
+Likes: 1825
+------------------------------
+ID: mistralai/Mistral-7B-Instruct-v0.2
+Pipeline: text-generation
+Downloads: 2382958
+Likes: 3070
+------------------------------
+ID: mlx-community/Kimi-K2.5
+Pipeline: text-generation
+Downloads: 1184229
+Likes: 25
+------------------------------
+ID: mlx-community/gpt-oss-20b-MXFP4-Q8
+Pipeline: text-generation
+Downloads: 690985
+Likes: 29
+------------------------------
+ID: nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16
+Pipeline: text-generation
+Downloads: 697836
+Likes: 618
+------------------------------
+ID: nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-FP8
+Pipeline: text-generation
+Downloads: 783192
+Likes: 278
+------------------------------
+ID: openai-community/gpt2
+Pipeline: text-generation
+Downloads: 7512124
+Likes: 3107
+------------------------------
+ID: openai-community/gpt2-large
+Pipeline: text-generation
+Downloads: 1428704
+Likes: 345
+------------------------------
+ID: openai/gpt-oss-120b
+Pipeline: text-generation
+Downloads: 3262594
+Likes: 4459
+------------------------------
+ID: openai/gpt-oss-20b
+Pipeline: text-generation
+Downloads: 5838133
+Likes: 4319
+------------------------------
+ID: sshleifer/tiny-gpt2
+Pipeline: text-generation
+Downloads: 506998
+Likes: 34
+------------------------------
+ID: trl-internal-testing/tiny-Qwen2ForCausalLM-2.5
+Pipeline: text-generation
+Downloads: 2946649
+Likes: 3
+------------------------------
+ID: zai-org/GLM-4.7-Flash
+Pipeline: text-generation
+Downloads: 1335981
+Likes: 1463
+------------------------------
