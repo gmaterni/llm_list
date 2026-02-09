@@ -52,21 +52,24 @@ def main():
     # 1. Salva lista nomi
     with open("data/models_gemini.txt", "w") as f:
         for m in sorted(filtered_models, key=lambda x: x.name):
-            f.write(f"{m.name}\n")
+            clean_name = m.name.replace("models/", "")
+            f.write(f"{clean_name}\n")
             
     # 2. Salva nomi e finestra di input (wnd)
     with open("data/models_gemini_wnd.txt", "w") as f:
         for m in sorted(filtered_models, key=lambda x: x.name):
+            clean_name = m.name.replace("models/", "")
             limit = getattr(m, 'input_token_limit', 0)
             k_limit = f"{limit // 1024}k" if limit >= 1024 else f"{limit}"
-            f.write(f"{m.name}|{k_limit}\n")
+            f.write(f"{clean_name}|{k_limit}\n")
 
     # 3. Salva info dettagliate
     with open("data/models_gemini_info.txt", "w") as f:
         f.write("MODELLI GEMINI - INFORMAZIONI DETTAGLIATE\n")
         f.write("=" * 50 + "\n\n")
         for m in sorted(filtered_models, key=lambda x: x.name):
-            f.write(f"ID: {m.name}\n")
+            clean_name = m.name.replace("models/", "")
+            f.write(f"ID: {clean_name}\n")
             f.write(f"Display Name: {m.display_name}\n")
             if hasattr(m, 'version'): f.write(f"Version: {m.version}\n")
             if hasattr(m, 'input_token_limit'): f.write(f"Input Limit: {m.input_token_limit}\n")
