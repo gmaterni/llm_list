@@ -1,3 +1,0 @@
-modifca gli script eliminado dal nome il prefisso lista esempi lista_modelli_gemini.py diventa models_gemini.py.
-Poi salvai n un fils testo con il nome del provide la lista dei model torvato ad esempio modells_gemini.py genera ella dir data /ceala se non esiste) models_gemini.txt la lista dei modelli nel formato <name_model> e genera un altro files ad esempi models_info_gemini.txt con le informazione relatve al model. Infine seeleziona prima i model che generano testo.
-Dei model con lo stesso nome stampa nel primo file solo quello più agiornato. Per hggingface e openrouter seleziona i model con piano di prezzo free. nei vari scrit metti in evidena i filtri di selezoine in una determinat funzoine.

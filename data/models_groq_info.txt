@@ -1,0 +1,43 @@
+MODELLI GROQ - INFORMAZIONI DETTAGLIATE
+==================================================
+
+ID: gemma-7b-it
+Nome: Gemma 7B
+Context: 8192
+------------------------------
+ID: gemma2-9b-it
+Nome: Gemma 2 9B
+Context: 8192
+------------------------------
+ID: llama-3.1-70b-versatile
+Nome: Llama 3.1 70B (Versatile)
+Context: 131072
+------------------------------
+ID: llama-3.1-8b-instant
+Nome: Llama 3.1 8B (Instant)
+Context: 131072
+------------------------------
+ID: llama-3.2-1b-preview
+Nome: Llama 3.2 1B (Preview)
+Context: 8192
+------------------------------
+ID: llama-3.2-3b-preview
+Nome: Llama 3.2 3B (Preview)
+Context: 8192
+------------------------------
+ID: llama-guard-3-8b
+Nome: Llama Guard 3 8B
+Context: 8192
+------------------------------
+ID: llama3-70b-8192
+Nome: Llama 3 70B
+Context: 8192
+------------------------------
+ID: llama3-8b-8192
+Nome: Llama 3 8B
+Context: 8192
+------------------------------
+ID: mixtral-8x7b-32768
+Nome: Mixtral 8x7B
+Context: 32768
+------------------------------
