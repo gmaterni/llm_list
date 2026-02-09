@@ -1,0 +1,4 @@
+Genera uno script models_test.py che, utilizzando le librerie llmclient e utilizzando come riferimento il codice llm_provider.py, esegua le seguenti operazioni:
+- Legge dalla directory data i file <name_provider>.txt.
+- Per ogni provider legge la lista dei modelli.
+- Testa con una request e un timeout di 5 secondi ogni modello e salva nella directory ./data un file per ogni provider con l'elenco dei modelli per i quali la request è andat a buon fine nel formato definito in <name_provider>_wnd.txt con il nome <name_provider>_ok.txt.
