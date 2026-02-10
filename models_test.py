@@ -25,11 +25,9 @@ def get_wnd_map(provider):
 
 def test_gemini(model_id, api_key):
     # Prova diverse varianti di URL per Gemini
-    # Se model_id è "models/gemini-pro", l'URL diventa .../v1beta/models/gemini-pro
     base_url = "https://generativelanguage.googleapis.com/v1beta"
     
     # Assicurati che l'ID sia nel formato corretto per l'URL
-    clean_id = model_id
     if not model_id.startswith("models/"):
         model_id_for_url = f"models/{model_id}"
     else:
@@ -38,15 +36,19 @@ def test_gemini(model_id, api_key):
     url = f"{base_url}/{model_id_for_url}:generateContent?key={api_key}"
     payload = {"contents": [{"parts": [{"text": "hi"}]}]}
     try:
-        response = requests.post(url, json=payload, timeout=5)
+        response = requests.post(url, json=payload, timeout=10)
         if response.status_code == 200:
-            return True
+            return True, False
+        if response.status_code == 429:
+            return False, True
         # Fallback a v1
         url_v1 = url.replace("/v1beta/", "/v1/")
-        response = requests.post(url_v1, json=payload, timeout=5)
-        return response.status_code == 200
+        response = requests.post(url_v1, json=payload, timeout=10)
+        if response.status_code == 429:
+            return False, True
+        return response.status_code == 200, False
     except:
-        return False
+        return False, False
 
 def test_openai_compatible(url, model_id, api_key):
     headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
@@ -56,10 +58,12 @@ def test_openai_compatible(url, model_id, api_key):
         "max_tokens": 5
     }
     try:
-        response = requests.post(url, headers=headers, json=payload, timeout=5)
-        return response.status_code == 200
+        response = requests.post(url, headers=headers, json=payload, timeout=10)
+        if response.status_code == 429:
+            return False, True
+        return response.status_code == 200, False
     except:
-        return False
+        return False, False
 
 def main():
     data_path = Path("data")
@@ -109,23 +113,30 @@ def main():
         for model_id in models:
             print(f"    Testing {model_id}... ", end="", flush=True)
             success = False
+            rate_limited = False
             
             if provider == "gemini":
-                success = test_gemini(model_id, api_key)
+                success, rate_limited = test_gemini(model_id, api_key)
             elif provider in endpoints:
-                success = test_openai_compatible(endpoints[provider], model_id, api_key)
+                success, rate_limited = test_openai_compatible(endpoints[provider], model_id, api_key)
             elif provider == "huggingface":
                 url = f"https://api-inference.huggingface.co/models/{model_id}"
                 headers = {"Authorization": f"Bearer {api_key}"}
                 try:
-                    res = requests.post(url, headers=headers, json={"inputs": "hi"}, timeout=5)
-                    # A volte HF ritorna 503 se il modello sta caricando
-                    success = res.status_code == 200
+                    res = requests.post(url, headers=headers, json={"inputs": "hi"}, timeout=10)
+                    if res.status_code == 429:
+                        success, rate_limited = False, True
+                    else:
+                        success = (res.status_code == 200)
                 except:
                     success = False
             else:
                 success = False
             
+            if rate_limited:
+                print("RATE LIMITED! Interrompo test per questo provider.")
+                break
+
             if success:
                 print("OK")
                 wnd = wnd_map.get(model_id, "N/A")
@@ -133,10 +144,12 @@ def main():
             else:
                 print("FAILED")
             
-            time.sleep(0.3) # Ridotto delay per velocità
+            time.sleep(5.0) # Delay di 5 secondi tra richieste dello stesso provider
 
         if ok_models:
-            output_file = data_path / f"models_{provider}_ok.txt"
+            output_dir = Path("data_ok")
+            output_dir.mkdir(parents=True, exist_ok=True)
+            output_file = output_dir / f"{provider}_wnd.txt"
             with open(output_file, "w") as f:
                 for line in ok_models:
                     f.write(f"{line}\n")

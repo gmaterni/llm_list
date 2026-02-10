@@ -41,6 +41,7 @@ RedHatAI/Llama-3.2-1B-Instruct-FP8-dynamic
 RedHatAI/Meta-Llama-3.1-8B-Instruct-FP8
 RedHatAI/Qwen2.5-1.5B-quantized.w8a8
 TinyLlama/TinyLlama-1.1B-Chat-v1.0
+apple/OpenELM-1_1B-Instruct
 bigscience/bloomz-560m
 cyankiwi/GLM-4.5-Air-AWQ-4bit
 deepseek-ai/DeepSeek-R1-0528

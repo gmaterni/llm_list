@@ -1,4 +1,35 @@
-Genera uno script models_test.py che, utilizzando le librerie llmclient e utilizzando come riferimento il codice llm_provider.py, esegua le seguenti operazioni:
-- Legge dalla directory data i file <name_provider>.txt.
-- Per ogni provider legge la lista dei modelli.
-- Testa con una request e un timeout di 5 secondi ogni modello e salva nella directory ./data un file per ogni provider con l'elenco dei modelli per i quali la request è andat a buon fine nel formato definito in <name_provider>_wnd.txt con il nome <name_provider>_ok.txt.
+Vorrei un semlice script python models_2json.py che legge i dati dai files in una dir passata come argomento leggi i model da ciascun file  e genera un file json come questo indicato chiamnadolo models.json
+
+
+
+export const PROVIDER_CONFIG = {
+  mistral: {
+    client: "mistral",
+    models: {
+      "mistral-large-latest": { windowSize: 260 },
+      "mistral-medium-latest": { windowSize: 130 },
+      "mistral-small-latest": { windowSize: 130 },
+      "devstral-latest": { windowSize: 230 },
+      "devstral-medium-latest": { windowSize: 130 },
+      "devstral-small-latest": { windowSize: 130 },
+      "ministral-14b-2512": { windowSize: 260 },
+    },
+  },
+  gemini: {
+    client: "gemini",
+    models: {
+      "gemini-2.5-flash": { windowSize: 600 },
+      "gemini-2.5-flash-lite": { windowSize: 600 },
+      "gemini-3-flash-preview": { windowSize: 600 },
+    },
+  },
+  groq: {
+    client: "groq",
+    models: {
+      "llama-3.1-8b-instant": { windowSize: 8 },
+      "llama-3.3-70b-versatile": { windowSize: 8 },
+      "groq/compound": { windowSize: 8 },
+      "qwen/qwen3-32b": { windowSize: 8 },
+    },
+  }
+};

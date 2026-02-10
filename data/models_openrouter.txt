@@ -18,6 +18,7 @@ nvidia/nemotron-nano-12b-v2-vl:free
 nvidia/nemotron-nano-9b-v2:free
 openai/gpt-oss-120b:free
 openai/gpt-oss-20b:free
+openrouter/aurora-alpha
 openrouter/free
 openrouter/pony-alpha
 qwen/qwen3-4b:free

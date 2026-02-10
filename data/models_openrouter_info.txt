@@ -101,6 +101,11 @@ Nome: OpenAI: gpt-oss-20b (free)
 Context: 131072
 Modality: text->text
 ------------------------------
+ID: openrouter/aurora-alpha
+Nome: Aurora Alpha
+Context: 128000
+Modality: text->text
+------------------------------
 ID: openrouter/free
 Nome: Free Models Router
 Context: 200000

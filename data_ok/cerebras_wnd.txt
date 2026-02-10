@@ -1,0 +1,5 @@
+gpt-oss-120b|8k
+llama-3.3-70b|128k
+llama3.1-8b|8k
+qwen-3-32b|8k
+zai-glm-4.7|8k
