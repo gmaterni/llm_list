@@ -13,11 +13,9 @@ def parse_window_size(size_str):
     return 0
 
 def main():
-    if len(sys.argv) < 2:
-        print("Usage: python models_2json.py <directory>")
-        sys.exit(1)
-
-    data_dir = sys.argv[1]
+    # Use "data_ok" as default directory if not specified
+    data_dir = sys.argv[1] if len(sys.argv) >= 2 else "data_ok"
+    
     if not os.path.isdir(data_dir):
         print(f"Error: {data_dir} is not a directory")
         sys.exit(1)

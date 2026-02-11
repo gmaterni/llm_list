@@ -124,11 +124,59 @@
       "arcee-ai/trinity-large-preview:free": {
         "windowSize": 127
       },
+      "arcee-ai/trinity-mini:free": {
+        "windowSize": 128
+      },
+      "deepseek/deepseek-r1-0528:free": {
+        "windowSize": 160
+      },
+      "google/gemma-3-12b-it:free": {
+        "windowSize": 32
+      },
+      "google/gemma-3-27b-it:free": {
+        "windowSize": 128
+      },
+      "google/gemma-3-4b-it:free": {
+        "windowSize": 32
+      },
+      "google/gemma-3n-e2b-it:free": {
+        "windowSize": 8
+      },
+      "google/gemma-3n-e4b-it:free": {
+        "windowSize": 8
+      },
+      "liquid/lfm-2.5-1.2b-instruct:free": {
+        "windowSize": 32
+      },
+      "liquid/lfm-2.5-1.2b-thinking:free": {
+        "windowSize": 32
+      },
+      "nvidia/nemotron-3-nano-30b-a3b:free": {
+        "windowSize": 250
+      },
+      "nvidia/nemotron-nano-12b-v2-vl:free": {
+        "windowSize": 125
+      },
+      "nvidia/nemotron-nano-9b-v2:free": {
+        "windowSize": 125
+      },
+      "openrouter/aurora-alpha": {
+        "windowSize": 125
+      },
       "openrouter/free": {
+        "windowSize": 195
+      },
+      "openrouter/pony-alpha": {
         "windowSize": 195
       },
       "stepfun/step-3.5-flash:free": {
         "windowSize": 250
+      },
+      "tngtech/deepseek-r1t-chimera:free": {
+        "windowSize": 160
+      },
+      "upstage/solar-pro-3:free": {
+        "windowSize": 125
       }
     }
   },
@@ -140,9 +188,6 @@
       },
       "llama-3.3-70b": {
         "windowSize": 128
-      },
-      "llama3.1-8b": {
-        "windowSize": 8
       },
       "qwen-3-32b": {
         "windowSize": 8
@@ -167,9 +212,6 @@
       "gemini-2.5-flash-preview-09-2025": {
         "windowSize": 1024
       },
-      "gemini-3-flash-preview": {
-        "windowSize": 1024
-      },
       "gemini-flash-latest": {
         "windowSize": 1024
       },
@@ -181,6 +223,9 @@
       },
       "gemma-3-1b-it": {
         "windowSize": 32
+      },
+      "gemma-3-27b-it": {
+        "windowSize": 128
       },
       "gemma-3-4b-it": {
         "windowSize": 32

@@ -2,7 +2,6 @@ arcee-ai/trinity-large-preview:free|127k
 arcee-ai/trinity-mini:free|128k
 deepseek/deepseek-r1-0528:free|160k
 google/gemma-3-12b-it:free|32k
-google/gemma-3-27b-it:free|128k
 google/gemma-3-4b-it:free|32k
 google/gemma-3n-e2b-it:free|8k
 google/gemma-3n-e4b-it:free|8k
@@ -16,4 +15,6 @@ openrouter/free|195k
 openrouter/pony-alpha|195k
 stepfun/step-3.5-flash:free|250k
 tngtech/deepseek-r1t-chimera:free|160k
+tngtech/deepseek-r1t2-chimera:free|160k
+tngtech/tng-r1t-chimera:free|160k
 upstage/solar-pro-3:free|125k
