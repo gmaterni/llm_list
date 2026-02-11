@@ -1,0 +1,33 @@
+MODELLI CEREBRAS - INFORMAZIONI DETTAGLIATE
+==================================================
+
+ID: gpt-oss-120b
+Created: 0
+Owned By: Cerebras
+Context (est.): 8192
+------------------------------
+ID: llama-3.3-70b
+Created: 0
+Owned By: Cerebras
+Context (est.): 131072
+------------------------------
+ID: llama3.1-8b
+Created: 0
+Owned By: Cerebras
+Context (est.): 8192
+------------------------------
+ID: qwen-3-235b-a22b-instruct-2507
+Created: 0
+Owned By: Cerebras
+Context (est.): 8192
+------------------------------
+ID: qwen-3-32b
+Created: 0
+Owned By: Cerebras
+Context (est.): 8192
+------------------------------
+ID: zai-glm-4.7
+Created: 0
+Owned By: Cerebras
+Context (est.): 8192
+------------------------------
